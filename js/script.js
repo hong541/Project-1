@@ -38,6 +38,7 @@ document.addEventListener("click", function (e) {
   if (!sc.contains(e.target) && !shoppingCart.contains(e.target)) {
     shoppingCart.classList.remove("active");
   }
+  e.preventDefault();
 });
 
 // modal box
